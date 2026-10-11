@@ -34,3 +34,10 @@ function add3Guest(){
     guestPoints = guestPoints +3;
     guestDisplay.textContent = guestPoints;
 }
+
+function newGame(){
+    homePoints = 0;
+    guestPoints = 0;
+    guestDisplay.textContent = guestPoints;
+    homeDisplay.textContent = homePoints;
+}

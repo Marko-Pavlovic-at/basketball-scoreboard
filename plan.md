@@ -8,7 +8,14 @@ change the design
 
 
 Pseudocode :
+
+## MVP
 - create homePoints and guestPoints variables set them to 0 DONE
 - grab the div with the score points for both sides DONE
-- create functions add1Home ... and add1Guest...
-- inside the functions add corosponding points and change the dom to display it
+- create functions add1Home ... and add1Guest... DONE
+- inside the functions add corosponding points and change the dom to display it DONE
+
+## new game button
+- add the button in html
+- create a function new game
+- set homepoints and guestpoints to zero

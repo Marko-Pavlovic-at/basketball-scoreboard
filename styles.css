@@ -12,6 +12,7 @@ main{
 
 .score-container{
     display: flex;
+    flex-direction: column;
     background-color: #1a346b;
     padding: 1rem;
     align-items: center;
@@ -63,4 +64,13 @@ button{
     border: 1px solid white;
     color: white;
     padding: 0.5rem;
+}
+
+.teams{
+    display: flex;
+}
+
+.general-btn-group{
+    display: flex;
+    height: 30px;
 }
