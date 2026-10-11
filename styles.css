@@ -39,7 +39,7 @@ h2{
     margin: 0;
 }
 
-.homePoints-container, .guestPoints-container{
+#homePoints-container, #guestPoints-container{
     display: flex;
     align-items: center;
     justify-content: center;
