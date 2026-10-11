@@ -2,9 +2,9 @@ Follow the Figma design : https://www.figma.com/design/YC48MCx4frBFtYoz6rNJE6/Ba
 
 Stretch Goals :
 add a new game button DONE
-highlight leader
-more counters
-change the design
+highlight leader DONE
+more counters Skipped
+change the design skipped
 
 
 Pseudocode :
@@ -21,8 +21,9 @@ Pseudocode :
 - set homepoints and guestpoints to zero DONE
 
 ## highlight leader
-- create function leads
-- if home points === guest points nothing happens
-- if homepoints > guestpoints change style color to green for homedisplay
-- if guestpoints > homepoints change style color to green for guestdisplay
-- call function at startup
+- create function leads DONE
+- if home points === guest points nothing happens DONE
+- if homepoints > guestpoints change style color to green for homedisplay DONE
+- if guestpoints > homepoints change style color to green for guestdisplay DONE
+- call function at startup and in every button click DONE
+- make sure to change the colors on the opposite team back to red when needed DONE

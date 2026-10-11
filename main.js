@@ -47,6 +47,8 @@ function newGame(){
     guestPoints = 0;
     guestDisplay.textContent = guestPoints;
     homeDisplay.textContent = homePoints;
+        leads()
+
 }
 
 function leads(){
