@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.score-container{
+    display: flex;
+    background-color: #1a346b;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    
+}
+
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.guest-container{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.homePoints-container, .guestPoints-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 100px;
+    background-color: #1c1d1e;
+    color: red;
+    font-size: 60px;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.home-btn-group, .guest-btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem;
+}
